@@ -1,0 +1,1 @@
+ffmpeg -i input/video.mov -vn input/audio.mp3
