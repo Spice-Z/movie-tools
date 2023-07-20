@@ -1,0 +1,7 @@
+node_modules
+input/**
+outout/**
+dist/**
+
+.envrc
+.DS_Store
