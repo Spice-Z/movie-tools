@@ -60,7 +60,7 @@ async function saveStringAsTextFile(content, filePath) {
 
 
 async function main() {
-  const targetFilePath = path.join(INPUT_DIR, "input.m4a");
+  const targetFilePath = path.join(INPUT_DIR, "audio.mp3");
   
   console.log(targetFilePath)
 
