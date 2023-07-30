@@ -1,0 +1,1 @@
+ ffmpeg -i ./input/video.mov -vf "subtitles=dist/output.srt:force_style='FontName=M PLUS 1p,FontSize=16,Bold=1,OutlineColour=&HCC6600,BorderStyle=1,Outline=1,Shadow=1,Alignment=10" dist/out_short.mov

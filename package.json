@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "separate": "sh audio-from-video.sh",
+    "transcript": "node index.js",
+    "gen": "sh subtitle.sh",
+    "gen:short": "sh short_subtitle.sh"
   },
   "author": "",
   "license": "ISC",
